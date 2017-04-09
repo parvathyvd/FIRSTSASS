@@ -1,0 +1,67 @@
+// THE SASS COURSE • @bradhussey
+// =============================
+
+
+// VARIABLES
+$black : #333
+$pale : #d2e1dd
+$pink : #036
+$white : #ffffff
+$blue : #3b4dd2
+
+$font-stack : 'Helvetica',Arial
+$font-default-size : 14px
+$rad : 10px
+
+
+// MIXINS
+
+
+=circleThing($rad, $height, $width, $bg, $colour)
+  -webkit-border-radius: $rad
+  -ms-border-radius: $rad
+  -moz-border-radius: $rad
+  border-radius: $rad
+
+  width: $width
+  height: $height
+
+  line-height: $height
+  background: $bg
+  color: $colour
+
+  text-align: center
+  margin: 0 auto
+
+
+// STYLES
+
+body
+  background-color: $pale
+  color: $black
+  font-family: $font-stack
+
+header
+  +circleThing( 100%, 200px, 200px, $blue, white)
+  h1
+    font-size: $font-default-size - 3
+footer
+  +circleThing( 100%, 200px, 200px, $black, white)
+  font-size: $font-default-size - 5
+  position: relative
+  margin-top: -60px
+  z-index: -4
+
+
+
+article
+  background-color: $white
+  color: $black
+  margin: -60px auto
+  width: 760px
+  padding: 40px
+  box-sizing: border-box
+  border-radius: $rad
+  text-align: center
+  position: relative
+  z-index: -2

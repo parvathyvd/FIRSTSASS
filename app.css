@@ -1,0 +1,50 @@
+body {
+  background-color: #d2e1dd;
+  color: #333;
+  font-family: "Helvetica", Arial; }
+
+header {
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background: #3b4dd2;
+  color: white;
+  text-align: center;
+  margin: 0 auto; }
+  header h1 {
+    font-size: 11px; }
+
+footer {
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background: #333;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 9px;
+  position: relative;
+  margin-top: -60px;
+  z-index: -4; }
+
+article {
+  background-color: #ffffff;
+  color: #333;
+  margin: -60px auto;
+  width: 760px;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  z-index: -2; }
+
+/*# sourceMappingURL=app.css.map */
